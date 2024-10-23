@@ -1,0 +1,591 @@
+# Copyright (C) 2023 Sajjad Fattah
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sama Pashapour 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/samapashapour\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-26T08:25:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: sampa\n"
+
+#. Plugin Name of the plugin
+msgid "Sama Pashapour"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://samapashapour.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin adds some daily and monthly diet notes to the dashboard of WooCommerce account, and also the admin can view the notes report and export it as a pdf or excel file."
+msgstr ""
+
+#. Author of the plugin
+msgid "Sajjad Fattah"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://safateam.net/"
+msgstr ""
+
+#: inc/ajax/sampa-daily-reports-for-admin.php:22
+#: inc/ajax/sampa-daily-reports.php:22
+#: inc/ajax/sampa-monthly-reports-for-admin.php:22
+#: inc/ajax/sampa-monthly-reports.php:22
+#: inc/ajax/sampa-save-daily-form.php:20
+#: inc/ajax/sampa-save-monthly-form.php:22
+#: inc/ajax/sampa-save-personal-info-form.php:20
+#: inc/ajax/sampa-update-daily-form.php:20
+#: inc/ajax/sampa-update-monthly-form.php:20
+msgid "Security error!"
+msgstr ""
+
+#: inc/ajax/sampa-daily-reports-for-admin.php:33
+#: inc/ajax/sampa-daily-reports.php:34
+msgid "There is no record for daily reports!"
+msgstr ""
+
+#: inc/ajax/sampa-daily-reports-for-admin.php:68
+#: inc/ajax/sampa-daily-reports.php:64
+#: inc/ajax/sampa-monthly-reports-for-admin.php:77
+#: inc/ajax/sampa-monthly-reports.php:73
+msgid "Error occurred on giving data from database!"
+msgstr ""
+
+#: inc/ajax/sampa-monthly-reports-for-admin.php:33
+#: inc/ajax/sampa-monthly-reports.php:34
+msgid "There is no record for monthly reports!"
+msgstr ""
+
+#: inc/ajax/sampa-save-daily-form.php:26
+#: inc/ajax/sampa-save-monthly-form.php:42
+#: inc/ajax/sampa-save-monthly-form.php:47
+#: inc/ajax/sampa-save-monthly-form.php:50
+#: inc/ajax/sampa-save-personal-info-form.php:26
+#: inc/ajax/sampa-update-daily-form.php:27
+#: inc/ajax/sampa-update-monthly-form.php:41
+#: inc/ajax/sampa-update-monthly-form.php:46
+#: inc/ajax/sampa-update-monthly-form.php:49
+#: inc/main/sampa-resources.php:44
+#: inc/main/sampa-resources.php:80
+msgid "One or more values are empty"
+msgstr ""
+
+#: inc/ajax/sampa-save-daily-form.php:50
+#: inc/ajax/sampa-save-monthly-form.php:173
+#: inc/ajax/sampa-save-personal-info-form.php:69
+msgid "Error occurred on saving data to database!"
+msgstr ""
+
+#: inc/ajax/sampa-save-daily-form.php:52
+#: inc/ajax/sampa-save-monthly-form.php:175
+#: inc/ajax/sampa-save-personal-info-form.php:73
+msgid "Form successfully saved to database"
+msgstr ""
+
+#: inc/ajax/sampa-save-monthly-form.php:177
+msgid "This form has already been saved!"
+msgstr ""
+
+#: inc/ajax/sampa-update-daily-form.php:55
+#: inc/ajax/sampa-update-monthly-form.php:152
+msgid "Error occurred on updating data to database!"
+msgstr ""
+
+#: inc/ajax/sampa-update-daily-form.php:57
+#: inc/ajax/sampa-update-monthly-form.php:154
+msgid "Form successfully updated to database"
+msgstr ""
+
+#: inc/main/sampa-menu.php:22
+#: inc/main/sampa-menu.php:23
+#: inc/woocommerce/sampa-register-endpoint.php:72
+msgid "Reports"
+msgstr ""
+
+#: inc/main/sampa-resources.php:42
+#: inc/main/sampa-resources.php:78
+msgid "Yes"
+msgstr ""
+
+#: inc/main/sampa-resources.php:43
+#: inc/main/sampa-resources.php:79
+msgid "No"
+msgstr ""
+
+#: inc/main/sampa-resources.php:45
+msgid "Phone number is incorect"
+msgstr ""
+
+#: inc/main/sampa-resources.php:76
+msgid "Confirm save"
+msgstr ""
+
+#: inc/main/sampa-resources.php:77
+msgid "Are you sure of saving the information?"
+msgstr ""
+
+#: inc/woocommerce/sampa-custom-product-type.php:60
+msgid "Package"
+msgstr ""
+
+#: inc/woocommerce/sampa-custom-product-type.php:97
+msgid "Package period (days)"
+msgstr ""
+
+#: inc/woocommerce/sampa-custom-product-type.php:101
+msgid "Add package period (days)"
+msgstr ""
+
+#: inc/woocommerce/sampa-register-endpoint.php:70
+msgid "New report"
+msgstr ""
+
+#: samapashapour.php:67
+msgid "Could not be activated. %s"
+msgstr ""
+
+#: samapashapour.php:89
+msgid "%1$s requires woocommerce installed and active. You can download woocommerce latest version %2$s OR go back to %3$s."
+msgstr ""
+
+#: samapashapour.php:91
+msgid "from here"
+msgstr ""
+
+#: samapashapour.php:92
+msgid "plugins page"
+msgstr ""
+
+#: views/admin/reports.php:23
+#: views/public/reports.php:24
+msgid "Daily reports"
+msgstr ""
+
+#: views/admin/reports.php:26
+#: views/public/reports.php:27
+msgid "Monthly reports"
+msgstr ""
+
+#: views/admin/reports.php:35
+#: views/admin/reports.php:51
+#: views/admin/reports.php:72
+#: views/admin/reports.php:90
+msgid "Row"
+msgstr ""
+
+#: views/admin/reports.php:36
+#: views/admin/reports.php:52
+#: views/admin/reports.php:73
+#: views/admin/reports.php:91
+msgid "User"
+msgstr ""
+
+#: views/admin/reports.php:37
+#: views/admin/reports.php:53
+#: views/public/reports.php:36
+#: views/public/reports.php:50
+msgid "Nutrition"
+msgstr ""
+
+#: views/admin/reports.php:38
+#: views/admin/reports.php:54
+#: views/public/reports.php:37
+#: views/public/reports.php:51
+msgid "Sport"
+msgstr ""
+
+#: views/admin/reports.php:39
+#: views/admin/reports.php:55
+#: views/public/reports.php:38
+#: views/public/reports.php:52
+msgid "Sleep"
+msgstr ""
+
+#: views/admin/reports.php:40
+#: views/admin/reports.php:56
+#: views/public/reports.php:39
+#: views/public/reports.php:53
+msgid "Expenses"
+msgstr ""
+
+#: views/admin/reports.php:41
+#: views/admin/reports.php:57
+#: views/public/add-report.php:164
+#: views/public/add-report.php:522
+#: views/public/reports.php:40
+#: views/public/reports.php:54
+msgid "Water"
+msgstr ""
+
+#: views/admin/reports.php:42
+#: views/admin/reports.php:58
+#: views/public/reports.php:41
+#: views/public/reports.php:55
+msgid "Today work"
+msgstr ""
+
+#: views/admin/reports.php:43
+#: views/admin/reports.php:59
+#: views/public/reports.php:42
+#: views/public/reports.php:56
+msgid "Motivational sentence"
+msgstr ""
+
+#: views/admin/reports.php:44
+#: views/admin/reports.php:60
+#: views/public/add-report.php:141
+#: views/public/add-report.php:499
+#: views/public/reports.php:43
+#: views/public/reports.php:57
+msgid "Thanksgiving"
+msgstr ""
+
+#: views/admin/reports.php:45
+#: views/admin/reports.php:61
+#: views/public/reports.php:44
+#: views/public/reports.php:58
+msgid "Note"
+msgstr ""
+
+#: views/admin/reports.php:46
+#: views/admin/reports.php:62
+#: views/admin/reports.php:85
+#: views/admin/reports.php:103
+#: views/public/reports.php:45
+#: views/public/reports.php:59
+#: views/public/reports.php:80
+#: views/public/reports.php:96
+msgid "Creation date"
+msgstr ""
+
+#: views/admin/reports.php:74
+#: views/admin/reports.php:92
+#: views/public/add-report.php:225
+#: views/public/add-report.php:352
+#: views/public/reports.php:69
+#: views/public/reports.php:85
+msgid "Chest"
+msgstr ""
+
+#: views/admin/reports.php:75
+#: views/admin/reports.php:93
+#: views/public/add-report.php:230
+#: views/public/add-report.php:357
+#: views/public/reports.php:70
+#: views/public/reports.php:86
+msgid "Left arm"
+msgstr ""
+
+#: views/admin/reports.php:76
+#: views/admin/reports.php:94
+#: views/public/add-report.php:235
+#: views/public/add-report.php:362
+#: views/public/reports.php:71
+#: views/public/reports.php:87
+msgid "Right arm"
+msgstr ""
+
+#: views/admin/reports.php:77
+#: views/admin/reports.php:95
+#: views/public/add-report.php:240
+#: views/public/add-report.php:367
+#: views/public/reports.php:72
+#: views/public/reports.php:88
+msgid "Waist"
+msgstr ""
+
+#: views/admin/reports.php:78
+#: views/admin/reports.php:96
+#: views/public/add-report.php:245
+#: views/public/add-report.php:372
+#: views/public/reports.php:73
+#: views/public/reports.php:89
+msgid "Belly"
+msgstr ""
+
+#: views/admin/reports.php:79
+#: views/admin/reports.php:97
+#: views/public/add-report.php:250
+#: views/public/add-report.php:377
+#: views/public/reports.php:74
+#: views/public/reports.php:90
+msgid "Hip"
+msgstr ""
+
+#: views/admin/reports.php:80
+#: views/admin/reports.php:98
+#: views/public/add-report.php:255
+#: views/public/add-report.php:382
+#: views/public/reports.php:75
+#: views/public/reports.php:91
+msgid "Left thigh"
+msgstr ""
+
+#: views/admin/reports.php:81
+#: views/admin/reports.php:99
+#: views/public/add-report.php:260
+#: views/public/add-report.php:387
+#: views/public/reports.php:76
+#: views/public/reports.php:92
+msgid "Right thigh"
+msgstr ""
+
+#: views/admin/reports.php:82
+#: views/admin/reports.php:100
+#: views/public/add-report.php:265
+#: views/public/add-report.php:392
+#: views/public/reports.php:77
+#: views/public/reports.php:93
+msgid "Left leg"
+msgstr ""
+
+#: views/admin/reports.php:83
+#: views/admin/reports.php:101
+#: views/public/add-report.php:270
+#: views/public/add-report.php:397
+#: views/public/reports.php:78
+#: views/public/reports.php:94
+msgid "Right leg"
+msgstr ""
+
+#: views/admin/reports.php:84
+#: views/admin/reports.php:102
+#: views/public/reports.php:79
+#: views/public/reports.php:95
+msgid "About"
+msgstr ""
+
+#: views/public/add-report.php:48
+msgid "MY BODY"
+msgstr ""
+
+#: views/public/add-report.php:52
+msgid "Specifications:"
+msgstr ""
+
+#: views/public/add-report.php:54
+msgid "My name:"
+msgstr ""
+
+#: views/public/add-report.php:60
+msgid "My height:"
+msgstr ""
+
+#: views/public/add-report.php:66
+msgid "My weight:"
+msgstr ""
+
+#: views/public/add-report.php:72
+msgid "My age:"
+msgstr ""
+
+#: views/public/add-report.php:78
+msgid "My number:"
+msgstr ""
+
+#: views/public/add-report.php:84
+msgid "My goal:"
+msgstr ""
+
+#: views/public/add-report.php:96
+msgid "Signeture"
+msgstr ""
+
+#: views/public/add-report.php:99
+msgid "Fingerprint"
+msgstr ""
+
+#: views/public/add-report.php:106
+#: views/public/add-report.php:207
+msgid "About this month"
+msgstr ""
+
+#: views/public/add-report.php:120
+#: views/public/add-report.php:121
+#: views/public/add-report.php:478
+#: views/public/add-report.php:479
+msgid "Today"
+msgstr ""
+
+#: views/public/add-report.php:126
+#: views/public/add-report.php:127
+#: views/public/add-report.php:484
+#: views/public/add-report.php:485
+msgid "Date"
+msgstr ""
+
+#: views/public/add-report.php:132
+#: views/public/add-report.php:490
+msgid "Today motivational sentence"
+msgstr ""
+
+#: views/public/add-report.php:153
+#: views/public/add-report.php:511
+msgid "Today works"
+msgstr ""
+
+#: views/public/add-report.php:201
+#: views/public/add-report.php:336
+#: views/public/add-report.php:468
+#: views/public/add-report.php:559
+msgid "Next step"
+msgstr ""
+
+#: views/public/add-report.php:218
+#: views/public/add-report.php:345
+msgid "My measurements this month"
+msgstr ""
+
+#: views/public/add-report.php:222
+#: views/public/add-report.php:349
+msgid "Human"
+msgstr ""
+
+#: views/public/add-report.php:226
+#: views/public/add-report.php:353
+msgid "Chest size in mm"
+msgstr ""
+
+#: views/public/add-report.php:231
+#: views/public/add-report.php:358
+msgid "Left arm size in mm"
+msgstr ""
+
+#: views/public/add-report.php:236
+#: views/public/add-report.php:363
+msgid "Right arm size in mm"
+msgstr ""
+
+#: views/public/add-report.php:241
+#: views/public/add-report.php:368
+msgid "Waist size in mm"
+msgstr ""
+
+#: views/public/add-report.php:246
+#: views/public/add-report.php:373
+msgid "Belly size in mm"
+msgstr ""
+
+#: views/public/add-report.php:251
+#: views/public/add-report.php:378
+msgid "Hip size in mm"
+msgstr ""
+
+#: views/public/add-report.php:256
+#: views/public/add-report.php:383
+msgid "Left thigh size in mm"
+msgstr ""
+
+#: views/public/add-report.php:261
+#: views/public/add-report.php:388
+msgid "Right thigh size in mm"
+msgstr ""
+
+#: views/public/add-report.php:266
+#: views/public/add-report.php:393
+msgid "Left leg size in mm"
+msgstr ""
+
+#: views/public/add-report.php:271
+#: views/public/add-report.php:398
+msgid "Right leg size in mm"
+msgstr ""
+
+#: views/public/add-report.php:283
+#: views/public/add-report.php:566
+msgid "Today nutrition"
+msgstr ""
+
+#: views/public/add-report.php:295
+#: views/public/add-report.php:578
+msgid "Today sport"
+msgstr ""
+
+#: views/public/add-report.php:305
+#: views/public/add-report.php:588
+msgid "Today sleep"
+msgstr ""
+
+#: views/public/add-report.php:315
+#: views/public/add-report.php:598
+msgid "Today expenses"
+msgstr ""
+
+#: views/public/add-report.php:326
+#: views/public/add-report.php:609
+msgid "Today note"
+msgstr ""
+
+#: views/public/add-report.php:334
+#: views/public/add-report.php:466
+#: views/public/add-report.php:558
+#: views/public/add-report.php:616
+msgid "Previous step"
+msgstr ""
+
+#: views/public/add-report.php:338
+#: views/public/add-report.php:470
+#: views/public/add-report.php:617
+msgid "Save"
+msgstr ""
+
+#: views/public/add-report.php:406
+msgid "Result of this month"
+msgstr ""
+
+#: views/public/add-report.php:413
+msgid "This month my diet"
+msgstr ""
+
+#: views/public/add-report.php:417
+msgid "This month my gym"
+msgstr ""
+
+#: views/public/add-report.php:421
+msgid "This month my sleep time"
+msgstr ""
+
+#: views/public/add-report.php:428
+msgid "Weight at beginning"
+msgstr ""
+
+#: views/public/add-report.php:430
+msgid "Scale"
+msgstr ""
+
+#: views/public/add-report.php:432
+msgid "Weight at ending"
+msgstr ""
+
+#: views/public/add-report.php:456
+msgid "Award of this month"
+msgstr ""
+
+#: views/public/add-report.php:624
+msgid "GOD..."
+msgstr ""
+
+#: views/public/add-report.php:629
+msgid ""
+"God, I thank you that I finished this month with full energy and strength, this month I loved myself more and gave more importance to the health of my body.\n"
+"        Now, with your name and memory, I will start the new month with more energy ❤️"
+msgstr ""
+
+#: views/public/package-remaining-days.php:23
+msgid "Your package time is expired!"
+msgstr ""
+
+#: views/public/package-remaining-days.php:25
+msgid "Package remaining time: "
+msgstr ""
+
+#: views/public/package-remaining-days.php:25
+msgid " Day(s)"
+msgstr ""

@@ -1,0 +1,404 @@
+@font-face {
+    font-family: iransans;
+    src: url("../../fonts/IRANSansWeb.eot") format("eot"),
+        url("../../fonts/IRANSansWeb.ttf") format("truetype"),
+        url("../../fonts/IRANSansWeb.woff") format("woff"),
+        url("../../fonts/IRANSansWeb.woff2") format("woff2");
+}
+.sampa-bg {
+    background-image: url("../../images/background.jpg");
+    background-size: contain;
+    padding: .5em 2em;
+    width: 400px;
+    height: 568px;
+    overflow-y: auto;
+}
+
+.rtl #my-name,
+.rtl #my-height,
+.rtl #my-weight,
+.rtl #my-age,
+.rtl #my-number,
+.rtl #my-goal,
+.rtl .sampa-report .sampa-textbox-lines,
+.sampa-agreement p,
+.sampa-human p {
+    font-family:'iransans'!important;
+}
+
+.sampa-title {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #D4C7F3 0%, #9979E3 100%);
+    width: fit-content;
+    text-align: center;
+    margin: .5em auto;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 1em;
+    border: none;
+    font-family:'iransans'!important;
+    position: relative;
+}
+
+.sizes-container input, .sizes-container span, .input-group-text, .sampa-human h3 {
+    font-family:'iransans'!important;
+}
+
+.sampa-title-picture {
+    width: auto;
+    margin: 1.5em auto 1.5em;
+    position: relative;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.sampa-title-picture:before {
+    content: "";
+    background: url("../../images/title-picture.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: block;
+    top: -15px;
+    right: -20%;
+}
+
+.sampa-body {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    padding: 2em;
+}
+
+.sizes-container {
+    color: #997eb9;
+}
+
+.sizes-container > input {
+    border-color: #997eb9;
+}
+
+.sampa-save-form, .sampa-show-modal {
+    margin: 1.5em auto 0;
+    border: 0;
+}
+
+.sampa-show-modal {
+    width: 100%;
+}
+
+.sampa-human label {
+    text-align: right;
+    font-family: 'iransans';
+}
+
+.sampa-title-motivational-sentence,
+.sampa-title-thanksgiving,
+.sampa-title-works,
+.sampa-title-water,
+.sampa-title-nutrition,
+.sampa-title-sport,
+.sampa-title-sleep,
+.sampa-title-expenses,
+.sampa-title-note {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.sampa-title-motivational-sentence:before,
+.sampa-title-thanksgiving:before,
+.sampa-title-works:before,
+.sampa-title-nutrition:before,
+.sampa-title-sport:before,
+.sampa-title-sleep:before,
+.sampa-title-expenses:before,
+.sampa-title-note:before,
+.sampa-title-result:before,
+.sampa-title-gift:before {
+    content: "";
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 5%;
+}
+
+.sampa-title-motivational-sentence:before {
+    background: url("../../images/battery.png");
+}
+
+.sampa-title-thanksgiving:before {
+    background: url("../../images/folded-hands-emoji.png");
+}
+
+.sampa-title-works:before {
+    background: url("../../images/checklist.png");
+}
+
+.sampa-title-nutrition:before {
+    background: url("../../images/strawberry.png");
+}
+
+.sampa-title-sport:before {
+    background: url("../../images/trophy.png");
+}
+
+.sampa-title-sleep:before {
+    background: url("../../images/sleep.png");
+}
+
+.sampa-title-expenses:before {
+    background: url("../../images/dollar.png");
+}
+
+.sampa-title-note:before {
+    background: url("../../images/note.png");
+}
+
+.sampa-title-result:before {
+    background: url("../../images/target.png");
+}
+
+.sampa-title-gift:before {
+    background: url("../../images/gift.png");
+}
+
+.sampa-textbox-lines {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 0px 0px 10px 1px #fff;
+    background-attachment: local;
+    background-image: linear-gradient(to right, #FFF, #FFF 10px, transparent 10px), linear-gradient(to left, #FFF, #FFF 10px, transparent 10px), repeating-linear-gradient(#FFF, #FFF 36px, #CCC 36px, #CCC 37px);
+    line-height: 38px;
+    padding: 6.3333333333px 10px;
+    resize: none;
+}
+
+.rtl .sampa-textbox-lines {
+    font-family:'iransans'!important;
+}
+
+#sampa-nutrition {
+    height: 335px;
+}
+
+.sampa-water {
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 0px 0px 10px 1px #fff;
+}
+
+.glass-container {
+    width: 30px;
+}
+
+.glass-container > input {
+    left: 8px;
+    top: 40% !important;
+    width: 15px;
+    height: 15px;
+}
+
+.sampa-date {
+    border-radius: 0 10px 10px 0;
+}
+
+.rtl .sampa-date {
+    font-family:'iransans'!important;
+    border-radius: 10px 0 0 10px;
+}
+
+.report-step-2, .report-step-3, .report-step-4, .report-step-5, .report-step-6 {
+    display: none;
+}
+
+.sizes-container .input-group {
+    position: relative;
+}
+
+.sizes-container .input-group input {
+    padding: 10px 40px 10px 10px;
+}
+
+.rtl .sizes-container .input-group input {
+    padding: 10px 10px 10px 40px;
+    direction: rtl;
+}
+
+.sampa-unit {
+    position: absolute;
+    display: block;
+    right: 5px;
+    left: auto;
+    top: 10px;
+    z-index: 9;
+}
+
+.rtl .sampa-unit {
+    right: auto;
+    left: 5px;
+}
+
+.sampa-goto-step-1,
+.sampa-goto-step-2,
+.sampa-goto-step-3,
+.sampa-goto-step-4,
+.sampa-goto-step-5,
+.sampa-update-monthly-form,
+.sampa-save-monthly-form,
+.sampa-update-daily-form,
+.sampa-save-daily-form {
+    width: 48%;
+}
+
+.sampa-before-title, .sampa-before-title2, .sampa-before-title3 {
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    color: #212529;
+    z-index: 1 ;
+}
+#sampa-holder, #sampa-holder2, #sampa-holder3 {
+    position: relative;
+    overflow: hidden;
+}
+.sampa-title-text, .sampa-title-text2, .sampa-title-text3 {
+    text-indent: 145px; /* change this value */
+    width: 100%;
+    display: block;
+    overflow: auto;
+    z-index : 99999 ;
+}
+
+.sampa-title-text3 {
+    text-indent: 195px; /* change this value */
+}
+
+.sampa-title-right, .sampa-title-left {
+    width: 35%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: auto;
+    white-space: nowrap;
+    float: right;
+}
+
+.sampa-title-left {
+    float: left;
+}
+
+.sampa-scales-icon {
+    width: 70px;
+    height: 70px;
+    max-width: 30%;
+    display: inline-block;
+    background: #ffb8ef;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 5px 0px #a6a6a6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sampa-scales-icon > img {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sampa-agreement-input {
+    width: 75px !important;
+    max-width: 75px !important;
+    border: none !important;
+}
+
+.sampa-agreement {
+    text-align: left !important;
+}
+
+.rtl .sampa-agreement {
+    text-align: right !important;
+}
+
+.sampa-agreement-input.sampa-name-input {
+    width: 150px !important;
+    max-width: 150px !important;
+}
+
+/* Datatables */
+.rtl #daily-reports, .rtl #monthly-reports, .rtl div.dataTables_wrapper div.dataTables_info, .rtl #daily-reports_length, .rtl #monthly-reports_length {
+    font-family:'iransans'!important;
+    text-align: right;
+    direction: rtl;
+}
+.rtl #daily-reports_filter, .rtl #monthly-reports_filter {
+    font-family:'iransans'!important;
+    text-align: left !important;
+    direction: rtl;
+}
+.rtl table.dataTable thead>tr>th.sorting, .rtl table.dataTable thead>tr>th.sorting_asc, .rtl table.dataTable thead>tr>th.sorting_desc, .rtl table.dataTable thead>tr>th.sorting_asc_disabled, .rtl table.dataTable thead>tr>th.sorting_desc_disabled, .rtl table.dataTable thead>tr>td.sorting, .rtl table.dataTable thead>tr>td.sorting_asc, .rtl table.dataTable thead>tr>td.sorting_desc, .rtl table.dataTable thead>tr>td.sorting_asc_disabled, .rtl table.dataTable thead>tr>td.sorting_desc_disabled, .rtl table.dataTable thead th, .rtl table.dataTable thead td, .rtl table.dataTable tfoot th, .rtl table.dataTable tfoot td {
+    text-align: right;
+}
+.rtl table.dataTable thead>tr>th.sorting:before, .rtl table.dataTable thead>tr>th.sorting:after, .rtl table.dataTable thead>tr>th.sorting_asc:before, .rtl table.dataTable thead>tr>th.sorting_asc:after, .rtl table.dataTable thead>tr>th.sorting_desc:before, .rtl table.dataTable thead>tr>th.sorting_desc:after, .rtl table.dataTable thead>tr>th.sorting_asc_disabled:before, .rtl table.dataTable thead>tr>th.sorting_asc_disabled:after, .rtl table.dataTable thead>tr>th.sorting_desc_disabled:before, .rtl table.dataTable thead>tr>th.sorting_desc_disabled:after, .rtl table.dataTable thead>tr>td.sorting:before, .rtl table.dataTable thead>tr>td.sorting:after, .rtl table.dataTable thead>tr>td.sorting_asc:before, .rtl table.dataTable thead>tr>td.sorting_asc:after, .rtl table.dataTable thead>tr>td.sorting_desc:before, .rtl table.dataTable thead>tr>td.sorting_desc:after, .rtl table.dataTable thead>tr>td.sorting_asc_disabled:before, .rtl table.dataTable thead>tr>td.sorting_asc_disabled:after, .rtl table.dataTable thead>tr>td.sorting_desc_disabled:before, .rtl table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    left: 10px;
+    right: auto;
+}
+.rtl div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    margin-right: .5em;
+}
+.rtl .dataTables_paginate .page-link {
+    font-family:'iransans'!important;
+    text-decoration: none !important;
+}
+.rtl .dataTables_paginate .pagination {
+    float: left;
+}
+
+@media only screen and (max-width: 426px) {
+    .sampa-bg {
+        width: 100%;
+        height: 425px;
+    }
+    .modal-body .sampa-bg {
+        height: 461px;
+        padding: 0.5em 1.5em;
+    }
+    .sampa-body {
+        padding: 10px;
+    }
+    .sampa-title {
+        font-size: 14px;
+    }
+    .sampa-title-picture:before {
+        background-size: 100px;
+        width: 130px;
+        height: 100px;
+        top: -13px;
+        right: -20%;
+    }
+    .input-group-text,
+    .sizes-container .input-group input,
+    .sampa-unit {
+        font-size: .7rem;
+    }
+    .rtl .sizes-container .input-group input {
+        padding: 10px 10px 10px 30px;
+    }
+    .sizes-container .input-group input {
+        padding: 10px 30px 10px 10px;
+    }
+}

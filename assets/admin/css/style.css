@@ -1,0 +1,36 @@
+@font-face {
+    font-family: iransans;
+    src: url("../../fonts/IRANSansWeb.eot") format("eot"),
+        url("../../fonts/IRANSansWeb.ttf") format("truetype"),
+        url("../../fonts/IRANSansWeb.woff") format("woff"),
+        url("../../fonts/IRANSansWeb.woff2") format("woff2");
+}
+/* Datatables */
+.rtl #daily-reports, .rtl #monthly-reports, .rtl div.dataTables_wrapper div.dataTables_info, .rtl #daily-reports_length, .rtl #monthly-reports_length {
+    font-family:'iransans'!important;
+    text-align: right;
+    direction: rtl;
+}
+.rtl #daily-reports_filter, .rtl #monthly-reports_filter {
+    font-family:'iransans'!important;
+    text-align: left !important;
+    direction: rtl;
+}
+.rtl table.dataTable thead>tr>th.sorting, .rtl table.dataTable thead>tr>th.sorting_asc, .rtl table.dataTable thead>tr>th.sorting_desc, .rtl table.dataTable thead>tr>th.sorting_asc_disabled, .rtl table.dataTable thead>tr>th.sorting_desc_disabled, .rtl table.dataTable thead>tr>td.sorting, .rtl table.dataTable thead>tr>td.sorting_asc, .rtl table.dataTable thead>tr>td.sorting_desc, .rtl table.dataTable thead>tr>td.sorting_asc_disabled, .rtl table.dataTable thead>tr>td.sorting_desc_disabled, .rtl table.dataTable thead th, .rtl table.dataTable thead td, .rtl table.dataTable tfoot th, .rtl table.dataTable tfoot td {
+    text-align: right;
+}
+.rtl table.dataTable thead>tr>th.sorting:before, .rtl table.dataTable thead>tr>th.sorting:after, .rtl table.dataTable thead>tr>th.sorting_asc:before, .rtl table.dataTable thead>tr>th.sorting_asc:after, .rtl table.dataTable thead>tr>th.sorting_desc:before, .rtl table.dataTable thead>tr>th.sorting_desc:after, .rtl table.dataTable thead>tr>th.sorting_asc_disabled:before, .rtl table.dataTable thead>tr>th.sorting_asc_disabled:after, .rtl table.dataTable thead>tr>th.sorting_desc_disabled:before, .rtl table.dataTable thead>tr>th.sorting_desc_disabled:after, .rtl table.dataTable thead>tr>td.sorting:before, .rtl table.dataTable thead>tr>td.sorting:after, .rtl table.dataTable thead>tr>td.sorting_asc:before, .rtl table.dataTable thead>tr>td.sorting_asc:after, .rtl table.dataTable thead>tr>td.sorting_desc:before, .rtl table.dataTable thead>tr>td.sorting_desc:after, .rtl table.dataTable thead>tr>td.sorting_asc_disabled:before, .rtl table.dataTable thead>tr>td.sorting_asc_disabled:after, .rtl table.dataTable thead>tr>td.sorting_desc_disabled:before, .rtl table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    left: 10px;
+    right: auto;
+}
+.rtl div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    margin-right: .5em;
+}
+.rtl .dataTables_paginate .page-link {
+    font-family:'iransans'!important;
+    text-decoration: none !important;
+}
+.rtl .dataTables_paginate .pagination {
+    float: left;
+}
